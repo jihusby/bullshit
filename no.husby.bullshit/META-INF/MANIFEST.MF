@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Bullshit
+Bundle-SymbolicName: no.husby.bullshit
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: bullshit.jar,
+ jih/java/jsoup-1.7.2.jar
+Export-Package: no.husby.article,
+ no.husby.article.tools,
+ no.husby.article.tools.internal,
+ no.husby.article.tools.test
+Require-Bundle: org.junit,
+ org.jsoup;bundle-version="1.7.2"
